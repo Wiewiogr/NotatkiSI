@@ -33,7 +33,9 @@ W ramach tego paradygmatu wyróżniamy dwa podejścia:
 Podział wiedzy na:
 - **wiedzę deklaratywną** - wiedzę o faktach, wiedzę *"że"*
 - **wiedzę proceduralną** - wiedzę o postępowaniu, wiedzę *"jak"*
+
 */\*doczytać drugi paragraf\*/*
+
 modele:
 - **sieci semantyczne** - wierzchołki reprezentują obiekty lub pojęcia, a krawędzie relacje(*jest-typu* lub *jest-podklasą*).
 - **ramy** - rozbudowane sieci semantycznew taki sposób, że wierzchołki mają bardzo bogatą strukturę określającą dokładnie obiekty i pojęcia.
