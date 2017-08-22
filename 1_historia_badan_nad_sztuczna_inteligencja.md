@@ -27,12 +27,36 @@ składa się ze zbioru elementów zwanych też symbolami, z których konstruuje 
 > Fizyczny system symboliczny ma konieczne i wystarczające środki do generowania inteligentnego działania.
 
 1980 - Podział poglądów na temat sztucznej inteligencji na:
-
-- **słabe podejście do sztucznej inteligencji** - 
-traktują komputer jako wygodne narzędzie do formułowania i testowania hipotez dotyczących mózgu oraz do symulacji czynności umysłu.
-
-- **silne podejście do sztucznej inteligencji** - 
-uważają, że odpowiednio zaprogramowany komputer jest równoważny mózgowi wraz z jego czynnościami umysłowymi
+- **słabe podejście do sztucznej inteligencji** - traktują komputer jako wygodne narzędzie do formułowania i testowania hipotez dotyczących mózgu oraz do symulacji czynności umysłu.
+- **silne podejście do sztucznej inteligencji** - uważają, że odpowiednio zaprogramowany komputer jest równoważny mózgowi wraz z jego czynnościami umysłowymi
 
 Aby odrzucić hipotezę o dotyczącą fizycznego systemu symbolicznego J.R Searle zaproponował eksperyment zwany **Chińskim pokojem** (s. 7)
 
+1957 - pierwsza wersja **teorii gramatyk generatywnych** N. Chomskiego.
+Zgodnie z tą teorią w umyśle istnieje meta-wiedza językowa nazywana gramatyką uniwersalną, która w trakcie dorastania jest "parametryzowana" zdaniami konkretnych języków. Za pomocą tej "sparametryzowanej" gramatyki można utworzyć nieskończoną ilość zdań tego języka.
+
+koniec lat 60 XX wieku - **Teoria zależności pojęciowej** R. Schanka. 
+Nie syntaktyka powinna być punktem wyjścia do analizy semantycznej, a pojęcia. W tym celu stworzył *diagramy zależności pojęciowej*, w których rózne struktury językowe mające to samo znaczenie mają taką samą reprezentacje niezależnie od języka.
+
+1987 - **lingwistyka kognitywna** G. Lakoffa - zadał On pytanie (a propos fizycznego systemu symbolicznego) : 
+> Czy możliwe jest odwzorowanie otaczającej nas rzeczywistości w zbiór takich wyrażeń?
+W tym podejściu nie przyporządkowuje się niczego do danej kategorii, ale możliwe jest aby przynależność była "rozmyta". (s. 10)
+
+**modele konekcjonistyczne** - zjawiska umysłowe modeluje się jako procesy zachodzące w sieciach złożonych z prostych elementów składowych np. sieć neuronowa.
+
+**modele inspirowane biologią** np.
+- **obliczenia ewolucyjne**
+Modele te służą głównie do poszukiwania optymalnego rozwiązania, traktują przestrzeń możliwych rozwiązań jako "osobników".
+Istnieją cztery podstawowe grupy metod:
+- **algorytmy genetyczne**
+- **strategie ewolucyjne**
+- **programowanie ewolucyjne**
+- **programowanie genetyczne**
+
+**rozpoznawanie wzorców(obrazów)** - służy do klasyfikacji nieznanych obiektów reprezentowanych jako zespoły cech.
+
+**wnioskowanie** oparte na **sieciach bayesowskich** pozwala rozwiązać problem z informacjami niepewnymi
+
+**teoria zbiorów rozmytych** oraz **teoria zbiorów przybliżonych** pozwala się uporać z problemem niejednoznaczności opisów naszego świata.
+
+**architektury kognitywne** oraz **systemy wieloagentowe** służą integracji wielu metod sztucznej inteligencji
