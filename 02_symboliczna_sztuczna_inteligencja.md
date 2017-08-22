@@ -1,0 +1,1 @@
+# Symboliczna sztuczna inteligencja
