@@ -1,0 +1,1 @@
+# Przeszukiwanie przestrzeni stanów
