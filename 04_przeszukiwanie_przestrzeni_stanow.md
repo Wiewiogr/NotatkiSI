@@ -55,3 +55,39 @@ Właściwości funkcji heurystycznej:
 
 ## 4) Przeszukiwanie z przeciwnikiem
 
+**funkcja użyteczności** - każdemu stanowi w grze przypisauje wartość mówiącą o tym jak bardzo dana sytuacja jest pożądana.
+
+Tworzymy *drzewo gry* za pomocą **strategi minimaksowej** tzn. naszym zadaniem jest maksymalizowanie wartości funkcji użyteczności, a zadaniem przeciwnika jest jej minimalizowanie. (str. 48 rys. 4.6)
+
+W podstawowej metodzie przeszukiwania z przeciwnikiem kolejne kroki są wartościowane najwyższymi wartościami z pośród kroków możlwych do wykonania przez przeciwnika, ponieważ spodziewamy się, że po naszym kroku przeciwnik wykona najgorszy dla nas krok.
+
+doczytać o **metodzie alfa-beta**
+
+*/\* trzeba doczytać rozdział, bo chyba słabo to opisałem \*/*
+
+## 5) Przeszukiwanie z ograniczeniami
+
+służy do rozwiązywania problemów, które charakteryzują się szeregiem wymagań (ograniczeń). np.
+- układanie planu zajęć ( ograniczenia: dostępność sal, harmonogram studentów, preferencje prowadzących itd.),
+- planowanie produkcji,
+- projektowanie układów VLSI,
+- biologia molekularna
+
+Problem spełnialności ograniczeń w **metodach przeszukiwania z ograniczeniami**:
+- skończony zbiór zmiennych: X1, X2, X3, ... ,
+- dla każdej zmienniej Xi możliwy zbiór wartości nazywamy dziedziną tej zmiennej,
+- skończony zbiór ograniczeń (więzów), dotyczących kombinacji wartości zmiennych
+
+**metoda przeszukiwania z powrotami** - polega na przypisywaniu kolejnym zmiennym wartości w trybie generowania drzewa przeszukiwań w głąb i wycofywaniu się, jeśli przypisane jest niezgodne ze zbiorem ograniczeń.
+
+**metoda przeszukiwania ze sprawdzaniem w przód** - w tej metodzie co krok sprawdzane jest, czy aktualne przypisanie do zmiennych wartości nie eliminuje wszystkich rozwiązań.
+
+**metody przeszukiwania z propagacją ograniczeń** - w tym podejściu w trakcie przeszukiwania drzewa przez ustalanie wartości dla poszczególnych zmiennych, propagujemy konsekwencje ograniczeń na pozostałe zmienne.
+
+**metoda przeszukiwania minimalizująca liczbę konfliktów** - polega ona na wstępnym przypisaniu wartości do wszystkich zmiennych i stopniowym poprawianiu go w przypadku naruszenia ograniczeń.
+
+** 6) Specjalne metody przeszukiwania heurystycznego
+
+Aby zapobiec sytuacjom, w którym znajdujemy ekstrema lokalne, a nie globalne skonstruowano szereg metod przeszukiwania heurystycznego:
+
+*/\* trzeba doczytać\*/*
