@@ -86,7 +86,7 @@ Problem spełnialności ograniczeń w **metodach przeszukiwania z ograniczeniami
 
 **metoda przeszukiwania minimalizująca liczbę konfliktów** - polega ona na wstępnym przypisaniu wartości do wszystkich zmiennych i stopniowym poprawianiu go w przypadku naruszenia ograniczeń.
 
-** 6) Specjalne metody przeszukiwania heurystycznego
+## 6) Specjalne metody przeszukiwania heurystycznego
 
 Aby zapobiec sytuacjom, w którym znajdujemy ekstrema lokalne, a nie globalne skonstruowano szereg metod przeszukiwania heurystycznego:
 
