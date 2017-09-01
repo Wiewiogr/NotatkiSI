@@ -1,0 +1,1 @@
+# Syntaktyczna analiza wzorców
