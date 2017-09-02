@@ -29,3 +29,32 @@ Sztuczne neurony mogą się różnić ze względu na:
   - **obcięta funkcja liniowa** (str. 169 wzór. 11.10)
   - **funkcja sigmoidalna** (str. 169 rys. 11.11)
 
+## 2) Podstawowe rodzaje struktur sieci neuronowych
+
+(rysunki na str. 170)
+
+Najprostrzą siecią neuronową jest **sieć jednowarstwowa**. W strukturze **sieci wielowarstwowej** nerony warstw r przekazują sygnały do warstwy r+1. Pierwsza warstwa nazywana jest **warstwą wejściową**, ostatnia - **warstwą wyjściową**, a warstwy pomiędzy nazywane są **warstwami ukrytymi**. Sieci w których sygnały płyną w jednym kierunku nazywamy **sieciami jednokierunkowymi**. 
+
+Podstawową metodą uczenia jednokierunkowej sieci wielowarstwowej jest **metoda wstecznej propagacji**. Na początku obliczamy sygnały wyjściowe dla ostaniej warstwy, potem obliczamy błąd zgodnie z odpowienidm wzorem (str. 171 wzór 11.14) , następnie propagujemy błąd wstecz zgodnie ze wzorem (str. 172 wzór 11.14), po czym obliczamy dla każego z neuronów nowe wagi (str. 173 wzór 11.16). (rysunki na str. 172)
+
+Sieci zawierające połączenia do neuronów warstw wcześniejszych nazywamy **sieciami rekurencyjnymi**, przykładowe sieci:
+- **sieć Hopfielda** - jednowarstwowa sieć, sygnał krąży po sieci aż sygnał wyjściowy nie przestanie się zmieniać
+- **sieci Jordana** - posiada dodatkowow *neurony stanu*
+- **sieci Elmanna** - podobne do *sieci Jordana*
+
+## 3) Przegląd modeli sieci neuronowych
+
+**Sieci pamięci skojarzeniowej (asocjacyjnej)** - służą do zapamiętywania wektorów wzorcowych w celu późniejszego rozpoznawania podobnych wektorów przez mechanizm skojarzenia. Najbadziej znane modele:
+- dwuwarstwowa, jednokierunkowa, uczona z nauczycielem **sieć Hintona**
+- **sieć typu BAM (dwukierunkowa pamięć asocjacyjna)** - dwuwarstwowa wersja *sieci Hopfielda*, w której sygnały przebiegają w cyklach - raz w jedną raz w drugą stronę.
+- **sieć Hamminga** - trójwarstwowa wersja *sieci Hopfielda*, w której zewnętrzne warstwy są jednokierunkowe, a warstwa środkowa jest rekurencyjna. Jej działanie opiera się na minimalizcji odległości Hamminga.
+
+**Sieci samoorganizujące** - wykorzysytwane w analizie skupisk, które generują dyskretną reprezentacje, zwaną mapą, które pokazują skupiska wektorów ciągu uczącego. Stosuje się tutaj szczególny rodzaj uczenia zwany **uczeniem z konkurencją**. Mechanizm uczenia wyzerowuje wyjścia wszystkich neuronów poza wyjściem neuronu zwycięskiego, tzn. takiego dla którego odległość wektora wag od wektora pokazywanego jest najmniejsza. Następnie korygowane są wagi albo tylko zwycięskiego (typ **WTA - winner takes all**) albo są korygowane wagi zwycięskiego i jego sąsiadów (typ **WTM - winner takes most**).
+
+**Sieci typu ART** służa do rozpoznawania obrazów. Zapobiega zapominaniu wzorców przez sieci. Jeżeli podczas uczenia się sieci, wzorzec który chemy dołączyć jest bardzo podobny do zapamiętanych już elementów jakiejś klasy, to jest dołączany do niej. Jeśli jednak nie jest, to sieci tworzy nowa klasę. W tego typu sieciach istnieje parametr, który określa jak bardzo powinniśmy uogólniać klasy.
+
+**Probabilistyczne sieci neuronowe** klasyfikują one wzorce na podstawie funkcji gęstości prawdopodobieństwa dla poszczególnych klas. Przykładem jest **maszyna Boltzmanna**.
+
+**Sieci radialnych funkcji bazowych(sieci RBF)** - zamiast jednej globalnej funkcji bazowej definiujemy funkcje aktywacji dla każdego neuronu z osobna.
+
+
