@@ -44,6 +44,7 @@ Jako, że przestrzeń stanów jest zwykla bardzo duża, dlatego generujemy i ana
 
 - **przeszukiwanie A\*** - wyboru kolejnego wierzchołka ddokonuje się na podstawie wartości funkcji heurystycznej oraz kosztu przejścia do niego. Oba te kryteria są składowymi **funkcji oceny** f:
 > f(n) = g(n) + h(n)
+
 g(n) - funkcja kosztu dotarcia do wierzchołka n od korzenia, h(n) - funkcja kosztu dotarcia od wierzchołka n do celu (heurystyczna)
 
 - **przeszukiwanie wiązką** - rozwijamy w przeszukiwaniu w wszerz drzewo poziom po poziomie, jednak na każdym poziomie zostawiamy do dalszego rozwinięcia tylko *b* najlepszych
