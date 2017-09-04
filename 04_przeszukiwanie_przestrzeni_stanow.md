@@ -87,7 +87,7 @@ Problem spełnialności ograniczeń w **metodach przeszukiwania z ograniczeniami
 
 **metody przeszukiwania z propagacją ograniczeń** - w tym podejściu w trakcie przeszukiwania drzewa przez ustalanie wartości dla poszczególnych zmiennych, propagujemy konsekwencje ograniczeń na pozostałe zmienne.
 
-**metoda przeszukiwania minimalizująca liczbę konfliktów** - polega ona na wstępnym przypisaniu wartości do wszystkich zmiennych i stopniowym poprawianiu go w przypadku naruszenia ograniczeń.
+**metoda przeszukiwania minimalizująca liczbę konfliktów** - polega ona na wstępnym przypisaniu wartości do wszystkich zmiennych i stopniowym poprawianiu go w przypadku naruszenia ograniczeń. Wstępnie przypisujemy wartości potem losujemy jedną ze zmiennych i zmieniamy jej wartość tak aby zminimalizować liczbę konfliktów i tak w kółko. 
 
 ## 6) Specjalne metody przeszukiwania heurystycznego
 
