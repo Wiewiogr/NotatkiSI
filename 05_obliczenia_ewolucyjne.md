@@ -39,6 +39,7 @@ Najbardziej naturalnym sposobem zdefiniowania **operatora krzyżowania** jest ob
 W tej metodzie korzystamy z metafory gatunków. Mechanizmy tak zrobione aby aby preferowane były małe zmiany nad radykalnymi. Nie zakłada się również formy reprezenatcji osobników(w alg. genetycznych -binarna, a w strategiach ewolucyjnych wektorowa)
 
 Schemat postępowania: (str. 68)
+
 0. **Inicjowanie i ocena populacji R**.
 1. **Utworzenie populacji potomnej P** poprzez losową mutację(zgodne z rozkładem normalnym) mutację każdego elemenu z populacji R.
 2. **Ocena populacji P**.
