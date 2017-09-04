@@ -20,6 +20,7 @@ Schemat algorytmu (str. 60 rys. 5.2):
 W strategiach ewolucyjnych osobnik jest reprezentowany przez parę wektorów jeden odpowiadający umiejscowienia osobnika w przestrzeni rozwiązań, a drugi to ciąg parametrów metody.
 
 Schemat algorytmu (str. 65 rys. 5.5):
+
 0. **Zainicjowanie i ocena początkowej populacji rodzicielskiej**
 1. **Utworzenie populacji potomków** - najpierw wybieramy odpowiednią ilość osobników, które będą brać w prokreacji danego potomka. Wybór poprzez losowanie ze zwracaniem. W kolejnym kroku krzyżujemy aby otrzymać wstępną wersję potomka. W trzecim mutujrmy fragment parametrów metody a wczwartym za pomocą zmutowanego parametru przeprowadza się mutacje osobnika.
 2. **Ocena populacji potomków**
