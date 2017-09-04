@@ -68,6 +68,8 @@ doczytać o **metodzie alfa-beta**
 
 ## 5) Przeszukiwanie z ograniczeniami
 
+Mamy w nich doczynienia z *problemami spełnialności ograniczeń*.
+
 służy do rozwiązywania problemów, które charakteryzują się szeregiem wymagań (ograniczeń). np.
 - układanie planu zajęć ( ograniczenia: dostępność sal, harmonogram studentów, preferencje prowadzących itd.),
 - planowanie produkcji,
