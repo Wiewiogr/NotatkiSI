@@ -42,7 +42,7 @@ Jako, że przestrzeń stanów jest zwykla bardzo duża, dlatego generujemy i ana
 
 - **przeszukiwanie pierwszy-najlepszy** - jeżeli przeszukując tak jak w metodzie powyżej natkniemy się na wierzchołek gorszy niż poprzedni, szukamy w wygenerowanym już drzewie najbarzdiej obiecującego wierzchołka i tam się przenosimy.
 
-- **przeszukiwanie A** - wyboru kolejnego wierzchołka ddokonuje się na podstawie wartości funkcji heurystycznej oraz kosztu przejścia do niego. Oba te kryteria są składowymi **funkcji oceny** f:
+- **przeszukiwanie A\*** - wyboru kolejnego wierzchołka ddokonuje się na podstawie wartości funkcji heurystycznej oraz kosztu przejścia do niego. Oba te kryteria są składowymi **funkcji oceny** f:
 > f(n) = g(n) + h(n)
 g(n) - funkcja kosztu dotarcia do wierzchołka n od korzenia, h(n) - funkcja kosztu dotarcia od wierzchołka n do celu (heurystyczna)
 
