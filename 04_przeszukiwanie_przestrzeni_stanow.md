@@ -93,4 +93,9 @@ Problem spełnialności ograniczeń w **metodach przeszukiwania z ograniczeniami
 
 Aby zapobiec sytuacjom, w którym znajdujemy ekstrema lokalne, a nie globalne skonstruowano szereg metod przeszukiwania heurystycznego:
 
+W metodzie **symulowanego wyżarzania** na początku symuluje się podgrzanie do wysokiej temperatury, po czym powolne schładzanie. 
+
+Metoda **poszukiwania z tabu** - polega na tym, że jako bieżące rozwiązanie wybiera się zawsze najlepsze z sąsiedztwa(nawet jeżęli jest gorsze), dodatkowo przez pewien czas nie można odwiedzać tego pola, jest to reprezentowane przez dodanie tego pola do listy *tabu*, w któ®ym nowe rozwiązanie zastępuje najstarsze. Poszukiwanie kończy się po przebyciu ustalonej liczby kroków.
+
+
 */\* trzeba doczytać\*/*
