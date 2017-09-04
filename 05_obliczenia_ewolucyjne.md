@@ -4,7 +4,7 @@ Grupa algorytmów inspirowanych biologią o największym znaczeniu. Polegają na
 
 ## 1) Algorytmy genetyczne
 
-**Przesztrzeń rozwiązań** przeszukujemy dla wielu punktów, w tym przypadku dla **osobników** tzn. każdy osobnik jest reprezentatem jakiegoś rozwiązania problemu. Zbiór osobnników w danym etapie obliczeń znajdjący się w przestrzeni roziwązań nazywamy **populacją**. Następujące po sobie populacje nazywamy kolejnymi pokoleniami. **Przestrzeń stanów** jest utworzona przez kolejne populacja.
+**Przesztrzeń rozwiązań** przeszukujemy dla wielu punktów, w tym przypadku dla **osobników** tzn. każdy osobnik jest reprezentatem jakiegoś rozwiązania problemu. Zbiór osobnników w danym etapie obliczeń znajdjący się w przestrzeni roziwązań nazywamy **populacją**. Następujące po sobie populacje nazywamy kolejnymi **pokoleniami**. **Przestrzeń stanów** jest utworzona przez kolejne populacja.
 
 Pozycja każdego osobnika w przestrzeni stanów jest określona przez współrzędne. Współrzędne określają **genotyp**. Każda współrzędna jest kodowana binarnie w postaci ciągu **genów** (gen to taki bit). Więc kilka genów określa jedną współrzędną osobnika. Zbiór współrzedncyh danego osobnika nazywamy **fenotypem**. Ocena się stopień przystosowania osobnika za pomocą **funkcji przystosowania**, czyli inaczej jkość rozwiązania.
 
