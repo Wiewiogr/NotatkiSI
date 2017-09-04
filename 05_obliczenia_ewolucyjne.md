@@ -64,7 +64,7 @@ Podstawowoym operatorem jest krzyżowanie, a mutacja pełni drugorzędną rolę.
 
 ## 5) Inne modele inspirowane biologią
 
- **Inteligencja grupowa(stadna)** - polega na modelowaniu systemu jako samoorganizującej się populacji sutonomicznych jednostek oddziałujących na siebie oraz na środowisko, w który się znajdują. Te jednostki moga mieć postać:
+ **Inteligencja grupowa(stadna)** - polega na modelowaniu systemu jako samoorganizującej się populacji autonomicznych jednostek oddziałujących na siebie oraz na środowisko, w który się znajdują. Te jednostki moga mieć postać:
  - **agenta** - który transformuje obserwacje w akcje
  - **boidu**, które działają w stadzie według trzech reguł: rozdzielności, spójności i wyrównywania.
  
