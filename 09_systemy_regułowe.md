@@ -42,7 +42,7 @@ Dopasowywanie reguł jest bardzo czasochłonnym procesem, dlatego został skonst
 
 ## 4) System ekspertowe a systemy regułowe
 
-Systemy ekspertowe to **systemy oparte na wiedzy**, działają one na podstawie wiedzy specjalistów. Wiedza taka może mieć reprezentacji strukturalnej(sieci, ramy, skrypty) lub być zapisana w logice pierwszego rzędu, za pomocą gramatyki itd. . **Ekspertowe systemy regułowe** to podklasa systemow ekspertowych, w których wiedza jest przedstawiona w postaci reguł. Wyróżnia si dwie grupy:
+Systemy ekspertowe to **systemy oparte na wiedzy**, które rozwiązują problemy pewnej dziedziny na podstawie wiedzy i umiejętności specjalistów z danej dziedziny. Wiedza taka może mieć reprezentacji strukturalnej(sieci, ramy, skrypty) lub być zapisana w logice pierwszego rzędu, za pomocą gramatyki itd. . **Ekspertowe systemy regułowe** to podklasa systemow ekspertowych, w których wiedza jest przedstawiona w postaci reguł. Wyróżnia si dwie grupy:
 - **systemy wnioskowania opartego na przypadkach** - zakłada się, że podobne problemy mają podobne rozwiązania. System przechowuje w bazie wiedzy problemy i ich rozwiązania z którymi do tej pory miał doczynienia, chcąc rozwiązać jakiś problem szuka najbardziej podobnego w bazie wiedzy, potem testuje w jakiś sposób rozwiązanie np. wirtualnie, jeżeli jest zadowalający to zwraca, jeżeli nie, to system proponuje modyfikacje rozwiaaniai ponownie przystępuje do weryfikacji, jeżeli się uda systme zapisuje rozwiązanie w swojej bazie.
 - **systemy wnioskujące na podstawie modeli** - zamiast wykorzystywać *bezpośrednio* uprzednio nabytą wiedzę konstruuje się model systemu co do którego będziemy chcieli dokonywać wnioskowania. Modele takie często umożliwiają wykonanie symulacji komputerowych.
 
@@ -50,6 +50,5 @@ Często systemy ekspertowe posiadają również moduły wspomagające:
 - **Moduł wyjaśniający** - którego zadaniem jest uzasadnianie rezultatów
 - **Moduł pozyskiwania wiedzy** - może występować albo jako moduł pozyskiwania wiedzy o otaczającym świecie np. jakieś czujniki, albo jako po prostu wygodny sposób wprowadzania reguł w jakiejś przyjemniejszej postaci, wówczas jego zadaniem jest doprowadzenie wiedzy do postaci rozumianej przez system.
 - **Interfejs użytkownika** - służy do łatwego komunikowania się z użytkownikiem, prezentowania rezultatów itd.
-
 
 Posiadając wiedzę nie pewną lub nie ostrą powinniśmy zastosować inne metody niż tutaj opisane, również metody oparte na logice wtedy odpadają.
