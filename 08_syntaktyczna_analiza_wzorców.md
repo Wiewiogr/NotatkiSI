@@ -71,9 +71,10 @@ Jeżeli mamy zbiór jakiś wyrażeń możemy obliczyć jego wszystkie pochodne s
 
 (przykładzik str.124)
 
-Podstawowy problem w gramatykach grafowych jest zastępowanie grafu lewej strony produkcji przez graf prawej strony, odpowiedzialna za tę sytuację jest **transformacja osadzenia**
+Podstawowy problem w gramatykach grafowych jest zastępowanie grafu lewej strony produkcji przez graf prawej strony, odpowiedzialna za tę sytuację jest **transformacja osadzenia** tzn. do zastosowanie prodkcji wykorzystywane są właśnie *transformacje osadzenia*, jest to opis które krawędzie powinny zostać zerwane, a które powinny zostać dołożone.
 
-**Gramatyki edNLC** opisane na str. 125-126
+**Gramatyki edNLC** to przykład *gramatyki grafowej*, opisane na str. 125-126.
 
-Jedynie dla podklasy **gramatyk grafowych ETPL(k)** udało się skonstruować efektywne automaty garfowe. Mają zastosowanie m.in. w systemach ekspertowych, analizie obrazów, w systemach wieloagentowych.
+
+Utworzenie efektywnych obliczeniowo automatów jest bardzo trudne. Jedynie dla podklasy **gramatyk grafowych ETPL(k)** udało się skonstruować efektywne automaty garfowe. Mają zastosowanie m.in. w systemach ekspertowych, analizie obrazów, w systemach wieloagentowych.
 
