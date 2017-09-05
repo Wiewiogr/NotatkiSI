@@ -12,7 +12,7 @@ Gdy definiujemy gramatykę wyróżniony jest symbol nieterminalny od którego za
 
 Istnieje wiele rozdajów klas gramatyk generatywnych, można je ułożyć w hierarchię według kryterium **mocy generacyjnej (opisowej)**. Rodzaje gramatyk ze względu na moc obliczeniową:
 - **gramatyka regularna** - pozwala jedynie doklejać symbol na końcu wyprowadzonego wyrażenia ( najsłabsza generacyjnie gramatyka)
-- **gramatyka bezkontekstowa** - nie wprowadzają żadnych ograniczeń poza tym, że po lewej stronie musi się znajdować pojedyńczy symbol terminalny.
+- **gramatyka bezkontekstowa** - nie wprowadzają żadnych ograniczeń poza tym, że po lewej stronie musi się znajdować pojedyńczy symbol nieterminalny.
 
 ## 2) Analiza reprezentacji strukturalnych
 
