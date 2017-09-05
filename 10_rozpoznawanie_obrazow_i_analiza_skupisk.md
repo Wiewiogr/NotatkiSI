@@ -13,7 +13,7 @@ Etapy poprzedzające proces klasyfikacji:
 
 ## 2) Klasyfikator minimalnoodległościowy
 
-Aby zaklasyfikować obiekt do któregoś skupiska tą metodą musimy na początku wyznaczyć wzorcowe obiekty należące do każej z klas(skupisk), później liczymy odległość naszego obiektu do nich. Nasz obiekt należy do klasy dla której obliczona odległość była najmniejsza
+Aby zaklasyfikować obiekt do któregoś skupiska tą metodą musimy na początku wyznaczyć **wzorcowe obiekty** należące do każej z klas(skupisk), później liczymy odległość naszego obiektu do nich. Nasz obiekt należy do klasy dla której obliczona odległość była najmniejsza
 
 ## 3) Metoda najbliżeszego sąsiada
 
