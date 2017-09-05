@@ -1,6 +1,6 @@
 # Syntaktyczna analiza wzorców
 
-W tej metodzie wnioskowania dokonoju się na podstawie struktur opisujących świat zewnętrzny. Zbiór struktur/wzorców odpowiada bazie wiedzy. Zbiór taki nie jest zapisany w bazie wiedzy bezpośrednio, ale za pomocą systemu generującego wszystkie wzorce tego zbioru, tzw gramatyki generatywnej.
+W tej metodzie wnioskowania dokonoju się na podstawie struktur opisujących świat zewnętrzny. Zbiór struktur/wzorców odpowiada bazie wiedzy. Zbiór taki nie jest zapisany w bazie wiedzy bezpośrednio, ale za pomocą tzw. *gramatyki generatywnej*.**Gramatyki generatywne** to systemy, które generują wszystkie wzorce należące do jakiegoś zbioru.
 
 ## 1) Generowanie reprezentacji strukturalnych
 
