@@ -42,7 +42,7 @@ Dopasowywanie reguł jest bardzo czasochłonnym procesem, dlatego został skonst
 
 ## 4) System ekspertowe a systemy regułowe
 
-Systemy ekspertowe to **systemy oparte na wiedzy**, działają one na podstawie wiedzy specjalistów. Wiedza taka może mieć reprezentacji strukturalnej. **Ekspertowe systemy regułowe** to podklasa systemow ekspertowych, w których wiedza jest przedstawiona w postaci reguł. Wyróżnia si dwie grupy:
+Systemy ekspertowe to **systemy oparte na wiedzy**, działają one na podstawie wiedzy specjalistów. Wiedza taka może mieć reprezentacji strukturalnej(sieci, ramy, skrypty) lub być zapisana w logice pierwszego rzędu, za pomocą gramatyki itd. . **Ekspertowe systemy regułowe** to podklasa systemow ekspertowych, w których wiedza jest przedstawiona w postaci reguł. Wyróżnia si dwie grupy:
 - **systemy wnioskowania opartego na przypadkach** - zakłada się, że podobne problemy mają podobne rozwiązania. System przechowuje w bazie wiedzy problemy i ich rozwiązania z którymi do tej pory miał doczynienia, chcąc rozwiązać jakiś problem szuka najbardziej podobnego w bazie wiedzy, potem testuje w jakiś sposób rozwiązanie np. wirtualnie, jeżeli jest zadowalający to zwraca, jeżeli nie, to system proponuje modyfikacje rozwiaaniai ponownie przystępuje do weryfikacji, jeżeli się uda systme zapisuje rozwiązanie w swojej bazie.
 - **systemy wnioskujące na podstawie modeli** - zamiast wykorzystywać *bezpośrednio* uprzednio nabytą wiedzę konstruuje się model systemu co do którego będziemy chcieli dokonywać wnioskowania. Modele takie często umożliwiają wykonanie symulacji komputerowych.
 
