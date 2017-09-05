@@ -8,7 +8,7 @@ Aby skonstruować **gramatykę generatywną** potrzebny jest **zbiór symboli(et
 
 **Produkcje** - są to reguły przepisujące (przykład na str.108 8.1, 8.2), są w nich **symbole pomocnicze (nieterminalne)**. Produkcje składają się z **lewej strony produkcji** oraz **prawej strony produkcji**. Zastosowanie produkcji polega na podmianie w frazy tożsamej z lewą stroną produkcji na prawą stronę. Sekwencja zastosowanych produkcji dążąca do wygenerowania danego zdania nazywana jest **wywodem/wyprowadzeniem** tego zdania, które składa się z **kroków wywodu**.
 
-Istnieje również **zbiór symboli terminalych**. Gdy definiujemy gramatykę wyróżniony jest symbol nieterminalny od którego zaczynamy generowanie zdań, nazywa się on **symbolem startowym (etykietą startową lub aksjomatem)** i jest oznazany literką S. Istnieje również **słowo puste**.
+Gdy definiujemy gramatykę wyróżniony jest symbol nieterminalny od którego zaczynamy generowanie zdań, nazywa się on **symbolem startowym (etykietą startową lub aksjomatem)** i jest oznazany literką S. Istnieje również **słowo puste**.
 
 Istnieje wiele rozdajów klas gramatyk generatywnych, można je ułożyć w hierarchię według kryterium **mocy generacyjnej (opisowej)**. Rodzaje gramatyk ze względu na moc obliczeniową:
 - **gramatyka regularna** - pozwala jedynie doklejać symbol na końcu wyprowadzonego wyrażenia ( najsłabsza generacyjnie gramatyka)
