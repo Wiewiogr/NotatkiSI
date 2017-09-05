@@ -19,9 +19,15 @@ W systemach SI konstruuje się system wnioskowania, który weryfikuje nieznaną 
 - **Aksjomaty** - to formuły, których prawdziwość zakłądamy, stranowią podstawową bazę wiedzy systemu.
 - **Reguły wnioskowania (inferencyjne)** - są wzorcami służącymi do wyprowadznia nowych formuł ze znanych formuł. (to są te reguły z kolosa)
 
+Konstruuje się systemy wnioskowania, który weryfikuje nieznaną formułę przez wnioskowanie na podstawie formuł uznanych za prawdziwe.
+
+Podsumowując wrzucamy do systemu formułę On patrzy w systemie na podstawie innych, czy jest prawdziwa, wykorzystuje do tego reguły inferencyjne i zwraca wynik.
+
 ## 2) Wnioskowanie za pomocą metody rezolucji
 
 **Metoda rezolucji** opiera się na sposobie dowodzenia twierdzeń nie wprost, czyli tworzymy zaprzeczenie tezy której chcemy dowieść i wskazujemy sprzeczność między tym zaprzeczeinem a przyjętymmi założeniami.
+
+**Rezolwenta** to formuła wynikowa każdego kroku, formuły wejściowe to **formuły kolidujące**. 
 
 (To też będzie na kolosie)
 
