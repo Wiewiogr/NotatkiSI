@@ -6,7 +6,7 @@
 
 To takie sieci, które mogą pokazywać np. dziedziczenie, są zależności jak *jest podklasą*, a w logikach deskrypcyjnych takie coś byłoby nazywane *ogólną inkluzją pojęć*. (str. 97 rys. 7.1)
 
-Elementarne, podstawowe pojęcia służące do definiowania innych nazywamy **pojęciami atomowymi**. (przykład z kolorami na str. 98 akapit 2). Takie pojęcia(klasy) możemy instancjonować tworząc **obiekty** lub **instancje**. Klasy możemy traktować jako zbiory obiektów, można obiekty mogą posiadać etykietę, że *należą do klasy*. Kolejnym elementem sieci semantycznych są **role**, które odzwierciedlają relacje zachodzące pomiędzy obiektami i klasami, podobnie jak w przypadku pojęć istnieją *role atomowe*, dzięki którym myożna definiować bardziej złożone pojęcia. (str. 99 rys. 7.2)
+Elementarne, podstawowe **pojęcia(klasy)** służące do definiowania innych nazywamy **pojęciami atomowymi**. (przykład z kolorami na str. 98 akapit 2). Takie pojęcia(klasy) możemy instancjonować tworząc **obiekty** lub **instancje**. Klasy możemy traktować jako zbiory obiektów, można obiekty mogą posiadać etykietę, że *należą do klasy*. Kolejnym elementem sieci semantycznych są **role**, które odzwierciedlają relacje zachodzące pomiędzy obiektami i klasami, podobnie jak w przypadku pojęć istnieją **role atomowe**, dzięki którym myożna definiować bardziej złożone pojęcia. (str. 99 rys. 7.2)
 
 Najprostszą metodą ekstrakcji wiedzy z sieci semantycznych jest **metoda dopasowywania strukturalnego**, aby zweryfikować prawdziwość jakiegoś twierdzenia definiujemy ogólny wzorzec i staramy się go dopasować do naszej sieci.
 
