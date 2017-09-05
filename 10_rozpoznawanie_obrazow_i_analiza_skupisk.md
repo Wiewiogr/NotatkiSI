@@ -9,7 +9,7 @@ Etapy poprzedzające proces klasyfikacji:
 - **ekstrakcja cech** - redukcja liczby cech wektorów, wybieramy do klasywikacji tylko te cechy które są nam potrzebne, tak aby najmniejszą możliwą liczbę cech,
 - **selekcja cech** - należy wybrać podzbiór cech posiadających odpowiednią moc dyskryminacyjną tzn. takich na podstawie których uzyskamy najmniejszy błąd klasyfikacji.
 
-**Przestrzenią cech** nazywamy obiekty, czyli wektory cech wybrane w trakcie etapów powyżej. Obiekty, które w przestrzeni cech znajdują sie blisko siebie tworzą skupisko.
+**Przestrzenią cech** nazywamy obiekty, czyli wektory cech wybrane w trakcie etapów powyżej. Obiekty, które w przestrzeni cech znajdują sie blisko siebie tworzą **skupisko**.
 
 ## 2) Klasyfikator minimalnoodległościowy
 
