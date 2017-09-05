@@ -51,7 +51,7 @@ Sieci zawierające połączenia do neuronów warstw wcześniejszych nazywamy **s
 
 **Sieci samoorganizujące** - wykorzysytwane w analizie skupisk, które generują dyskretną reprezentacje, zwaną mapą, które pokazują skupiska wektorów ciągu uczącego. Stosuje się tutaj szczególny rodzaj uczenia zwany **uczeniem z konkurencją**. Mechanizm uczenia wyzerowuje wyjścia wszystkich neuronów poza wyjściem neuronu zwycięskiego, tzn. takiego dla którego odległość wektora wag od wektora pokazywanego jest najmniejsza. Następnie korygowane są wagi albo tylko zwycięskiego (typ **WTA - winner takes all**) albo są korygowane wagi zwycięskiego i jego sąsiadów (typ **WTM - winner takes most**).
 
-**Sieci typu ART** służa do rozpoznawania obrazów. Zapobiega zapominaniu wzorców przez sieci. Jeżeli podczas uczenia się sieci, wzorzec który chemy dołączyć jest bardzo podobny do zapamiętanych już elementów jakiejś klasy, to jest dołączany do niej. Jeśli jednak nie jest, to sieci tworzy nowa klasę. W tego typu sieciach istnieje parametr, który określa jak bardzo powinniśmy uogólniać klasy.
+**Sieci typu ART** służa do rozpoznawania obrazów. Zapobiega zapominaniu wzorców przez sieci, taki problem występjuje, gdy już nauczoną sieć chcemy czegoś douczyć. Jeżeli podczas uczenia się sieci, wzorzec który chemy dołączyć jest bardzo podobny do zapamiętanych już elementów jakiejś klasy, to jest dołączany do niej. Jeśli jednak nie jest, to sieci tworzy nowa klasę. W tego typu sieciach istnieje parametr, który określa jak bardzo powinniśmy uogólniać klasy.
 
 **Probabilistyczne sieci neuronowe** klasyfikują one wzorce na podstawie funkcji gęstości prawdopodobieństwa dla poszczególnych klas. Przykładem jest **maszyna Boltzmanna**.
 
