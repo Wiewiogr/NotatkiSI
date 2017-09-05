@@ -1,5 +1,7 @@
 # Wnioskowanie oparte na logice
 
+Podejście do wnioskowania jak do dowodzenia twierdzeń.
+
 ## 1) Opis świata za pomocą logii pierwszego rzędu
 
 W logice pierwszego rzędu będziemy opisywać świat głównie elementami zwanymi **termami** do których należą:
