@@ -33,4 +33,23 @@ Zarówno w części *COND* jak i w *ACT* mogą pojawić się pojęcia nieostre. 
 
 ### Teoria zbiorów przybliżonych
 
+#### dla pojęć ostrych
+
+Poziom szczegółowości charakterystyki pojęcia powinien być *adekwatny* w stosunku do rozważanego problemu. Tzn. tyle, że w zależności od tego czego oczekujemy możemy tworzeć mniej lub bardziej szczegółowe rozwiązania. np. zamiast rozważać coś rozbitego na konkretne miasta w polsce, można by to uogólnić do województw i miast w zależności od naszych zapotrzebowań, robiąc coś takiego zwiększamy **granule wiedzy**. Gdy uogólniamy z miast do województw, to miasta z jednego województwa stają się **elemtami nierozróżnialnymi**.
+
+#### dla pojęć nieostrych
+
+**dolne przybliżenie** - zbiór, który na pewno jest objęty pojęciem.
+
+**górne przybliżenie** - zbiór, który być może jest objęty pojęciem.
+
+**brzeg zbioru** - różnica między dolnym, a górnym przybliżeniem
+
+**zbiór przybliżony** to zbiór dla którego przy ustalonej granujacji uniwersum dolne przybliżenie jest różne od górnego
+
+**zbiór dokładny** to zbiór dla którego dolne przybilżenie jest równe górnemu.
+
+**Współczynnik dokładności aproksymacji zbioru** - mówi jak dobra jest aproksymacja dolnym i górnym przybliżeniem. Jest równy dzieleniu dolnego przybliżenia przez górne.
+
+
 (str. 201-204)
