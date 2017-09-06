@@ -32,7 +32,7 @@ DOCZYTAĆ!!
 
 ## 2) Teoria Dempstera-Shafera
 
-Pomaga nam w wyrażaniu problemu braku wiedzy.
+Gdy jest sytuacja, w której nie znamy wszystkich faktów i wiemy, że ten brak informacji wpływa na proces wnioskowania.
 
 **Teoria Dempstera-Shafera, teria funkcji przekonania, matematyczna teoria ewidencji** - wyznacza prawdopodobieństwo z jakim dostępne informacje wspierają nasze przekonanie o prawdziwości danego twierdzenia, mierzone jest to za pomocą **funkcji przekonania**. *Funkcja przekonania* pełni również rolę *dolnego prawdopodobieństwa*, gdy **funkcja domniemania** pełnii rolę *górnego prawdopodobieństwa*.
 
