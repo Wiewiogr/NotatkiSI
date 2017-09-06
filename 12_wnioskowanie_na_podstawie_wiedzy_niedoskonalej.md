@@ -55,3 +55,5 @@ Logikę która przy rozszerzaniu zbioru założeń możę zmniejszyć zbiór twi
 **Systemy zachowania spójności logicznej** - służą do tego aby po usunięciu jakiegoś założenia wszystkie i tylko twierdzenia z niego wynikające zostały usunięte w optymalny sposób. Najlprościej usunąć wszystkie konkluzje wyciągnięte z twierdzenia, jednak jest to ksoztowne. Ulepszona wersja mogłaby pamiętać o chronologi wprowadzania nowych informacji oraz wyprowadzania twierdzeń, wteyd możnaby łatwo usunąć te wynikające z niego. Można również pamię†ać dla każdego twierdzenia ciąg **uzasadnień**, wtedy system usuwa te twierdzenia, których istotnym elemnetm jest to twierdzenie, tak działają **systemy zachowania spójności logicznej oparte na uzasadnieniach**.
 
 **Systemy zachowania spójności logicznej oparte na założeniach** - w takich systemach znajdują się wszystkie uzasadnienia, które kiedykolwiek miały miejsce. Dla każego zdania w bazie danych system rejestruje **założenia**, które mogą być wyorzystane w jego wnioskowaniu
+
+**Problem tła** - problem efektywnych mechanizmów reprezentacji faktów, które się **nie** zmieniają w czasie.
