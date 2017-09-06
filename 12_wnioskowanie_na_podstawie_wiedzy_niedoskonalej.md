@@ -34,7 +34,7 @@ DOCZYTAĆ!!
 
 Pomaga nam w wyrażaniu problemu braku wiedzy.
 
-**Teoria Dempstera-Shafera, teria funkcji przekonania, matematyczna teoria ewidencji** - wyznacza prawdopodobieństwo z jakim dostępne informacje wspierają nasze przekonanie o prawdziwości danego twierdzenia, mierzone jest to za pomocą **funkcji przekonania**. Funkcja przekonani pełni również rolę *dolnego prawdopodobieństwa*, gdy *funkcja domniemania* pełnii rolę górnego prawdopodobieństwa.
+**Teoria Dempstera-Shafera, teria funkcji przekonania, matematyczna teoria ewidencji** - wyznacza prawdopodobieństwo z jakim dostępne informacje wspierają nasze przekonanie o prawdziwości danego twierdzenia, mierzone jest to za pomocą **funkcji przekonania**. *Funkcja przekonania* pełni również rolę *dolnego prawdopodobieństwa*, gdy **funkcja domniemania** pełnii rolę *górnego prawdopodobieństwa*.
 
 W teorii dempstera shaffera przypisujemy stwierdzeniom dwie miary, które tworzą przedział mówiący o tym jak prawdopodobne coś jest, im mniejszy tym jesteśmy bardziej pewnii, w miarę pozyskiwania informacji przedział powinien się zawężać. 
 
