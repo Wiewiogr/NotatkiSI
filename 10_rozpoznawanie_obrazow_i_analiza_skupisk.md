@@ -34,7 +34,7 @@ Możemy dysponowć różnymi informacjami *a priori* np. obiektów A jest 4 razy
 **Wzór Bayesa**
 (nie mam pojęcia co się dzieje str. 151 - 153)
 
-W meteodach statystycznych za pomocą wzoru Bayesa wyznacza się jakie jest prawdopodobieństwo, że posiadając jakieś cechy należy do danej klasy.
+W meteodach statystycznych za pomocą wzoru Bayesa wyznacza się jakie jest prawdopodobieństwo, że posiadając jakieś cechy należy do danej klasy. Wykorzystywane jest również prawdopodobieństwo **a priori**.
 
 **Klasyfikator Bayesa** przypisuje obrazowi **o jednej cesze** klasę dla której prawdopodobieństwo jest największe.
 
