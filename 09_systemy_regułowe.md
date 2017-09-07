@@ -23,6 +23,7 @@ Reguły są gromadzone w **bazie reguł**.
 Wnioskowaniem steruje **moduł wnioskowania (interpreter reguł, maszyna wnioskująca)**, cykl pracy składa się z trzech etapów:
 - **dopasowanie reguł** moduł szuka reguł pasujących do faktów z pamięci roboczej tworząc **zbiór reguł konfliktowych**
 - **rozstrzyganie konfliktu reguł** 
+- **zastosowania reguły**
 
 ## 2) Strategie wnioskowani w systemach regułowych
 
