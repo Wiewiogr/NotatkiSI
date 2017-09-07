@@ -91,6 +91,8 @@ Problem spełnialności ograniczeń w **metodach przeszukiwania z ograniczeniami
 
 ## 6) Specjalne metody przeszukiwania heurystycznego
 
+Przegląda się przestrzeń potencjalnych rozwiązań.
+
 Aby zapobiec sytuacjom, w którym znajdujemy ekstrema lokalne, a nie globalne skonstruowano szereg metod przeszukiwania heurystycznego:
 
 W metodzie **symulowanego wyżarzania** na początku symuluje się podgrzanie do wysokiej temperatury, po czym powolne schładzanie. 
