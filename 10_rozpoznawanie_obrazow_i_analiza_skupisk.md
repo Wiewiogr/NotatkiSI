@@ -34,6 +34,12 @@ Możemy dysponowć różnymi informacjami *a priori* np. obiektów A jest 4 razy
 **Wzór Bayesa**
 (nie mam pojęcia co się dzieje str. 151 - 153)
 
+W meteodach statystycznych za pomocą wzoru Bayesa wyznacza się jakie jest prawdopodobieństwo, że posiadając jakieś cechy należy do danej klasy.
+
+**Klasyfikator Bayesa** przypisuje obrazowi **o jednej cesze** klasę dla której prawdopodobieństwo jest największe.
+
+**Naiwny klasyfikator Bayesa** dla obrazów o wielu cachach, traktuje każdą cechę niezależnie, jego wynik to iloczyn klasyfikatorów Bayesa dla wyszystkich.
+
 ## 6) Klasyfikator oparty na drzewach decyzyjnych
 
 Powyższe metody należały do **jednoetapowego rozpoznawania obrazów** ponieważ przy klasyfikacji brało się pod uwagę naraz wszystkie cech obrazu. Innym rodzajem klasyfikacji jest **sekwencyjne rozpoznawanie obrazów**, którego jedną z najbardziej znanych technik jest **klasyfikator oparty na drzewach decyzyjnych**.
